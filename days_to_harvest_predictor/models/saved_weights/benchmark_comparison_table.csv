@@ -1,0 +1,5 @@
+,samples,mae,rmse,mbe_bias,median_ae,r2_score,within_±3d,within_±5d,within_±7d,within_±10d,within_±14d
+Naive Baseline (Median),26340.0,46.34,54.19,11.84,45.0,-0.0491,3.91,5.9,8.37,11.49,16.38
+CatBoost Regressor,26340.0,13.56,19.77,3.88,9.66,0.8603,18.17,29.23,38.93,51.18,64.32
+XGBoost-AFT (Survival),26340.0,13.69,19.63,-0.42,9.7,0.8623,18.68,29.53,38.99,51.15,63.89
+Primary Causal LSTM (SOTA),25420.0,8.72,15.68,4.42,4.16,0.9024,38.65,56.57,66.06,74.96,83.02

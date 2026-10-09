@@ -1,0 +1,26 @@
+# Python Bytecode & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter Checkpoints
+.ipynb_checkpoints/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Temporary Checkpoints (keep final saved_weights)
+models/checkpoints/*.tmp
+catboost_info/
+
+# Raw & Large Processed Datasets (regenerated via scripts/run_full_pipeline.py)
+data/raw/
+data/processed/training_data.csv
+data/processed/with_indices_all_years.csv
+data/processed/interpolated_5day.csv
+data/processed/weather_daily.csv

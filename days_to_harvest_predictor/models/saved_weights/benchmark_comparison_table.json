@@ -1,0 +1,54 @@
+{
+  "Naive Baseline (Median)": {
+    "samples": 26340,
+    "mae": 46.34,
+    "rmse": 54.19,
+    "mbe_bias": 11.84,
+    "median_ae": 45.0,
+    "r2_score": -0.0491,
+    "within_\u00b13d": 3.91,
+    "within_\u00b15d": 5.9,
+    "within_\u00b17d": 8.37,
+    "within_\u00b110d": 11.49,
+    "within_\u00b114d": 16.38
+  },
+  "CatBoost Regressor": {
+    "samples": 26340,
+    "mae": 13.56,
+    "rmse": 19.77,
+    "mbe_bias": 3.88,
+    "median_ae": 9.66,
+    "r2_score": 0.8603,
+    "within_\u00b13d": 18.17,
+    "within_\u00b15d": 29.23,
+    "within_\u00b17d": 38.93,
+    "within_\u00b110d": 51.18,
+    "within_\u00b114d": 64.32
+  },
+  "XGBoost-AFT (Survival)": {
+    "samples": 26340,
+    "mae": 13.69,
+    "rmse": 19.63,
+    "mbe_bias": -0.42,
+    "median_ae": 9.7,
+    "r2_score": 0.8623,
+    "within_\u00b13d": 18.68,
+    "within_\u00b15d": 29.53,
+    "within_\u00b17d": 38.99,
+    "within_\u00b110d": 51.15,
+    "within_\u00b114d": 63.89
+  },
+  "Primary Causal LSTM (SOTA)": {
+    "samples": 25420,
+    "mae": 8.72,
+    "rmse": 15.68,
+    "mbe_bias": 4.42,
+    "median_ae": 4.16,
+    "r2_score": 0.9024,
+    "within_\u00b13d": 38.65,
+    "within_\u00b15d": 56.57,
+    "within_\u00b17d": 66.06,
+    "within_\u00b110d": 74.96,
+    "within_\u00b114d": 83.02
+  }
+}
